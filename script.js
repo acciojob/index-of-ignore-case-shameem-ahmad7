@@ -1,11 +1,11 @@
-function indexOfIgnoreCase(s1, s2) {
+function indexOfIgnoreCase(str, subStr) {
   // write your code here
 	 // Convert both strings to lowercase to make the search case-insensitive
-  const s1 = str.toLowerCase();
-  const s2 = subStr.toLowerCase();
+  const lowerStr = str.toLowerCase();
+  const lowerSubStr = subStr.toLowerCase();
 
-  // Use indexOf to find the first occurrence of s2 in s1
-  return s1.indexOf(s2);
+  // Use indexOf to find the first occurrence of lowerSubStr in lowerStr
+  return lowerStr.indexOf(lowerSubStr);
 }
 
 // Please do not change the code below
